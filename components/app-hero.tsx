@@ -133,8 +133,8 @@ export function AppHero() {
         <div className="flex-shrink-0 self-start">
           <div className="h-[80px] w-[80px] sm:h-[120px] sm:w-[120px] md:h-[150px] md:w-[150px] lg:h-[280px] lg:w-[280px] overflow-hidden rounded-xl sm:rounded-2xl md:rounded-3xl">
             <Image
-              src="/images/logo1.png"
-              alt="Chicken Game 2"
+              src="/images/logo1.webp"
+              alt="Chicken Road 2"
               width={280}
               height={280}
               className="h-full w-full object-cover object-[right_10%_top_20%]"
@@ -179,12 +179,12 @@ export function AppHero() {
             <div className="flex flex-col items-center">
               <div className="flex h-6 w-6 sm:h-8 sm:w-8 items-center justify-center">
                 <img 
-                  src="https://play-lh.googleusercontent.com/EbEX3AN4FC4pu3lsElAHCiksluOVU8OgkgtWC43-wmm_aHVq2D65FmEM97bPexilUAvlAY5_4ARH8Tb3RxQ=w48-h16-rw" 
-                  alt="Age rating 3+"
+                  src="https://play-lh.googleusercontent.com/QNpsl4k43vdbfwUAlVLZul2W5O5MUGOToystzghc97mljVHbUwtc639tahcuDsAVHdaGMyZA40AmMVcB_ws=w96-h32-rw" 
+                  alt="Age rating 18+"
                   className="h-3 w-3 sm:h-4 sm:w-4 object-contain"
                 />
               </div>
-              <div className="text-xs text-[#5f6368]">Rated for 3+</div>
+              <div className="text-xs text-[#5f6368]">Rated for 18+</div>
             </div>
           </div>
 

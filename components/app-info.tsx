@@ -16,6 +16,7 @@ export function AppInfo() {
             <span className="rounded-full bg-[#e8f0fe] px-3 py-1 text-xs text-[#174ea6]">Mobile</span>
             <span className="rounded-full bg-[#e8f0fe] px-3 py-1 text-xs text-[#174ea6]">Tablet</span>
             <span className="rounded-full bg-[#e8f0fe] px-3 py-1 text-xs text-[#174ea6]">Chromebook</span>
+            <span className="rounded-full bg-[#e8f0fe] px-3 py-1 text-xs text-[#174ea6]">PC</span>
           </div>
         </div>
 

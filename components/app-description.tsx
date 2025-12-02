@@ -107,7 +107,7 @@ Guide Max safely through traffic, collect rewards, and fight your way to the leg
       >
         {expanded ? "Less" : "More"}
       </button>
-      <div className="mt-4 text-xs text-[#5f6368]">Updated on Nov 26, 2025</div>
+      <div className="mt-4 text-xs text-[#5f6368]">Updated on Dec 2, 2025</div>
     </div>
   )
 }

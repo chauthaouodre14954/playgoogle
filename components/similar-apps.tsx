@@ -75,15 +75,15 @@ export function SimilarApps() {
       developer: "snoopdoggdollar.org",
       rating: 4.3,
       downloads: "1M+",
-      image: "/sdd.jpg",
+      image: "/sdd.webp",
       url: "https://snoopdoggdollar.org"
     },
     {
       name: "Chicken Road 2 for Pakistan",
-      developer: "chicken-road-2.pk",
+      developer: "ipaidbribe.pk",
       rating: 4.3,
       downloads: "1M+",
-      image: "/crpk.png",
+      image: "/crpk.webp",
       url: "https://ipaidbribe.pk"
     }
   ]

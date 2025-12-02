@@ -10,16 +10,16 @@ export function PlayOnPC() {
         <h2 className="text-base md:text-lg font-medium text-[#202124]">Play on PC</h2>
       </div>
 
-      <p className="mb-4 text-sm text-[#5f6368]">Play this game on your Windows PC with Google Play Games</p>
+      <p className="mb-4 text-sm text-[#5f6368]">Play <strong>Chicken Road 2</strong> on your Windows PC with Google Play Games</p>
 
       <div className="mb-4 rounded-lg bg-[#f8f9fa] p-3 md:p-4">
         <h3 className="mb-2 text-xs font-medium text-[#202124]">Minimum requirements</h3>
         <ul className="space-y-1 text-xs text-[#5f6368]">
           <li>Windows 10 (v2004)</li>
-          <li>SSD with 10 GB available space</li>
+          <li>SSD with 2 GB available space</li>
           <li>Intel UHD Graphics 630 GPU or comparable</li>
-          <li>4 CPU physical cores</li>
-          <li>8 GB RAM</li>
+          <li>2 CPU physical cores</li>
+          <li>2 GB RAM</li>
           <li>Hardware virtualization enabled</li>
         </ul>
       </div>
