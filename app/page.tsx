@@ -7,6 +7,7 @@ import { AppInfo } from "@/components/app-info"
 import { PlayOnPC } from "@/components/play-on-pc"
 import { DeveloperInfo } from "@/components/developer-info"
 import { SimilarApps } from "@/components/similar-apps"
+import PwaRedirect from "@/components/PwaRedirect"
 
 export default function Home() {
   return (
@@ -36,7 +37,7 @@ export default function Home() {
           }),
         }}
       />
-
+      <PwaRedirect />
       {/* Основной контент страницы */}
       <div className="min-h-screen bg-white">
         <PlayStoreNav />
