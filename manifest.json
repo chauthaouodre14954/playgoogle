@@ -1,0 +1,54 @@
+{
+  "name": "Chicken Road 2",
+  "short_name": "Chicken Road 2",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    
+  ],
+  "orientation": "portrait",
+  "background_color": "#ffffff",
+  "theme_color": "#ffcc00",
+  "description": "Play Chicken Road — download and play now!",
+  "icons": [
+    {
+      "src": "/images/logo1.webp",
+      "sizes": "192x192",
+      "type": "image/webp"
+    },
+    {
+      "src": "/images/logo1.webp",
+      "sizes": "512x512",
+      "type": "image/webp"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/images/1.webp",
+      "sizes": "1080x1920",
+      "type": "image/webp",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Play Now",
+      "short_name": "Play",
+      "description": "Start the Chicken Road game immediately",
+      "url": "/play"
+    },
+    {
+      "name": "Download",
+      "short_name": "Download",
+      "description": "Download Chicken Road APK",
+      "url": "/download"
+    }
+  ],
+  "protocol_handlers": [
+    {
+      "protocol": "web+chickenroad",
+      "url": "/?open=%s"
+    }
+  ]
+}

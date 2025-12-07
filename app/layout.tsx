@@ -345,6 +345,7 @@ import type { Metadata } from "next"
 import { Roboto } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
+import RegisterSW from "@/components/register-sw"
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
@@ -387,6 +388,9 @@ export default function RootLayout({
   return (
     <html lang="en-PK"> 
       <head>
+
+        <link rel="manifest" href="/manifest.json" />
+
         {/* Геотаргетинг мета-теги */}
         <meta name="geo.region" content="PK" />
         <meta name="geo.placename" content="Pakistan" />
@@ -639,6 +643,7 @@ export default function RootLayout({
       <body className={roboto.className}>
         {children}
         <Analytics />
+        <RegisterSW />
       </body>
     </html>
   )
