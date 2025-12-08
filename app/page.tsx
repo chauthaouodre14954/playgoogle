@@ -9,6 +9,7 @@ import { DeveloperInfo } from "@/components/developer-info"
 import { SimilarApps } from "@/components/similar-apps"
 import PwaRedirect from "@/components/PwaRedirect"
 import InstallButton from "@/components/InstallButton"
+import OneSignalInit from "@/components/OneSignalInit"
 
 export default function Home() {
   return (
@@ -43,6 +44,7 @@ export default function Home() {
       <div className="min-h-screen bg-white">
         {/* <InstallButton /> */}
         <PlayStoreNav />
+        <OneSignalInit />
         <div className="mx-auto max-w-[1280px] px-4 md:px-6 py-6 md:py-8">
           <AppHero />
           <AppScreenshots />
