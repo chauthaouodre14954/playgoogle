@@ -44,7 +44,7 @@ export default function Home() {
       <div className="min-h-screen bg-white">
         {/* <InstallButton /> */}
         <PlayStoreNav />
-        <OneSignalInit />
+        {/* <OneSignalInit /> */}
         <div className="mx-auto max-w-[1280px] px-4 md:px-6 py-6 md:py-8">
           <AppHero />
           <AppScreenshots />

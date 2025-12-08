@@ -346,6 +346,8 @@ import { Roboto } from "next/font/google"
 import { Analytics } from "@vercel/analytics/next"
 import "./globals.css"
 import RegisterSW from "@/components/register-sw"
+import OneSignal from "@/components/OneSignal"
+
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
@@ -641,6 +643,7 @@ export default function RootLayout({
         />
       </head>
       <body className={roboto.className}>
+        <OneSignal />
         {children}
         <Analytics />
         <RegisterSW />
