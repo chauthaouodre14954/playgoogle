@@ -17,8 +17,9 @@ export default function OneSignalInit() {
         OneSignal.init({
           appId: 'a762dbb1-4241-4294-b33c-add11e0af786', // вставь свой App ID
           allowLocalhostAsSecureOrigin: true,
-          notifyButton: {
-            enable: true,
+          notifyButton: { enable: true },
+          serviceWorkerParam: {
+            path: '/OneSignalSDKWorker.js', // путь к SW в /public
           },
         })
       })
