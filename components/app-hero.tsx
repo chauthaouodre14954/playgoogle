@@ -347,8 +347,7 @@ export function AppHero() {
           </div>
 
           {/* Action buttons */}
-          <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-            {/* PWA Install button */}
+          {/* <div className="flex flex-wrap items-center gap-2 sm:gap-3">
             {deferredPrompt ? (
               <button
                 onClick={handleInstallClick}
@@ -387,7 +386,41 @@ export function AppHero() {
               <Bookmark className="h-4 w-4" />
               <span className="hidden sm:inline">Add to wishlist</span>
             </a>
-          </div>
+          </div> */}
+
+          <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+  {/* APK Download button */}
+  <a
+    href="/Chicken Road 2.apk" // Замените на путь к вашему APK файлу в public
+    download="Chicken Road 2.apk" // Имя файла при скачивании
+    className="w-full sm:w-auto rounded bg-[#01875f] px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-white hover:bg-[#017f56] text-center no-underline"
+  >
+    Download
+  </a>
+
+  <a 
+    href="/play" 
+    className="w-full sm:w-auto rounded border border-[#dadce0] bg-white px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-[#01875f] hover:bg-[#f8f9fa] text-center no-underline"
+  >
+    Install on more devices
+  </a>
+
+  <a 
+    href="/play" 
+    className="flex items-center justify-center gap-2 rounded bg-white px-3 sm:px-4 py-2 sm:py-2.5 text-sm font-medium text-[#5f6368] hover:bg-[#f8f9fa] flex-1 sm:flex-none no-underline"
+  >
+    <Share className="h-4 w-4" />
+    <span className="hidden sm:inline">Share</span>
+  </a>
+
+  <a 
+    href="/play" 
+    className="flex items-center justify-center gap-2 rounded bg-white px-3 sm:px-4 py-2 sm:py-2.5 text-sm font-medium text-[#5f6368] hover:bg-[#f8f9fa] flex-1 sm:flex-none no-underline"
+  >
+    <Bookmark className="h-4 w-4" />
+    <span className="hidden sm:inline">Add to wishlist</span>
+  </a>
+</div>
 
           {/* Legal text */}
           <div className="mt-3 sm:mt-4 text-xs leading-relaxed text-[#5f6368]">
