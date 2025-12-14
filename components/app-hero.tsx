@@ -347,7 +347,7 @@ export function AppHero() {
           </div>
 
           {/* Action buttons */}
-          {/* <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+          <div className="flex flex-wrap items-center gap-2 sm:gap-3">
             {deferredPrompt ? (
               <button
                 onClick={handleInstallClick}
@@ -386,10 +386,10 @@ export function AppHero() {
               <Bookmark className="h-4 w-4" />
               <span className="hidden sm:inline">Add to wishlist</span>
             </a>
-          </div> */}
+          </div>
 
-          <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-  {/* APK Download button */}
+          {/* <div className="flex flex-wrap items-center gap-2 sm:gap-3">
+
   <a
     href="/Chicken Road 2.apk" // Замените на путь к вашему APK файлу в public
     download="Chicken Road 2.apk" // Имя файла при скачивании
@@ -420,7 +420,7 @@ export function AppHero() {
     <Bookmark className="h-4 w-4" />
     <span className="hidden sm:inline">Add to wishlist</span>
   </a>
-</div>
+</div> */}
 
           {/* Legal text */}
           <div className="mt-3 sm:mt-4 text-xs leading-relaxed text-[#5f6368]">
