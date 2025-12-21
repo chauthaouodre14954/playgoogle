@@ -65,9 +65,9 @@ export function SimilarApps() {
     {
       name: "Chicken Road 2",
       developer: "chicken-road-2.pk",
-      rating: 4.3,
-      downloads: "1M+",
-      image: "/cr.webp",
+      rating: 4.4,
+      downloads: "2M+",
+      image: "/cr2.webp",
       url: "https://chicken-road-2.pk"
     },
     {
@@ -75,7 +75,7 @@ export function SimilarApps() {
       developer: "snoopdoggdollar.org",
       rating: 4.3,
       downloads: "1M+",
-      image: "/sdd.webp",
+      image: "/sdd2.webp",
       url: "https://snoopdoggdollar.org"
     },
     {
@@ -83,7 +83,7 @@ export function SimilarApps() {
       developer: "ipaidbribe.pk",
       rating: 4.3,
       downloads: "1M+",
-      image: "/crpk.webp",
+      image: "/crpk2.webp",
       url: "https://ipaidbribe.pk"
     }
   ]

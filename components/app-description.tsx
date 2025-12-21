@@ -101,13 +101,71 @@ Guide Max safely through traffic, collect rewards, and fight your way to the leg
       <div className="whitespace-pre-line text-sm leading-relaxed text-[#3c4043]">
         {expanded ? fullDescription : shortDescription + "..."}
       </div>
+
+      {expanded && (
+        <div className="mt-6 grid grid-cols-2 gap-x-8 gap-y-6 border-t border-[#dadce0] pt-6">
+          <div>
+            <div className="text-xs font-medium text-[#5f6368]">Version</div>
+            <div className="mt-1 text-sm text-[#202124]">7.217.0</div>
+          </div>
+          <div>
+            <div className="text-xs font-medium text-[#5f6368]">Updated on</div>
+            <div className="mt-1 text-sm text-[#202124]">Dec 22, 2025</div>
+          </div>
+
+          <div>
+            <div className="text-xs font-medium text-[#5f6368]">Requires Android</div>
+            <div className="mt-1 text-sm text-[#202124]">6.0 and up</div>
+          </div>
+          <div>
+            <div className="text-xs font-medium text-[#5f6368]">Downloads</div>
+            <div className="mt-1 text-sm text-[#202124]">5,000,000+ downloads</div>
+          </div>
+
+          <div>
+            <div className="text-xs font-medium text-[#5f6368]">In-app purchases</div>
+            <div className="mt-1 text-sm text-[#202124]">PKR 0 - PKR 44,990.00 per item</div>
+          </div>
+          <div>
+            <div className="text-xs font-medium text-[#5f6368]">Content rating</div>
+            <div className="mt-1 text-sm text-[#202124]">
+              Rated for 18+{" "}
+              <a href="#" className="text-[#01875f] hover:underline">
+                Learn more
+              </a>
+            </div>
+          </div>
+
+          <div>
+            <div className="text-xs font-medium text-[#5f6368]">Permissions</div>
+            <div className="mt-1 text-sm text-[#01875f] hover:underline">
+              <a href="#">View details</a>
+            </div>
+          </div>
+          <div>
+            <div className="text-xs font-medium text-[#5f6368]">Interactive elements</div>
+            <div className="mt-1 text-sm text-[#202124]">In-Game Purchases</div>
+          </div>
+
+          <div>
+            <div className="text-xs font-medium text-[#5f6368]">Released on</div>
+            <div className="mt-1 text-sm text-[#202124]">Aug 12, 2025</div>
+          </div>
+          <div>
+            <div className="text-xs font-medium text-[#5f6368]">Offered by</div>
+            <div className="mt-1 text-sm text-[#202124]">InOutsGames</div>
+          </div>
+        </div>
+      )}
+
       <button
         onClick={() => setExpanded(!expanded)}
         className="mt-2 text-sm font-medium text-[#01875f] hover:underline"
       >
         {expanded ? "Less" : "More"}
       </button>
-      <div className="mt-4 text-xs text-[#5f6368]">Updated on Dec 2, 2025</div>
+      <div className="mt-4 text-xs text-[#5f6368]">Updated on Dec 22, 2025</div>
     </div>
   )
 }
+

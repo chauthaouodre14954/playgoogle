@@ -351,14 +351,14 @@ import OneSignal from "@/components/OneSignal"
 
 const roboto = Roboto({
   weight: ["300", "400", "500", "700"],
-  subsets: ["latin"],
+  subsets: ["latin"], 
 })
 
 export const metadata: Metadata = {
   title: "Chicken Road 2 x BIG Wins 2025 - Apps on Google Play",
   description:
     "🐔 💵 WIN BIG IN CHICKEN ROAD 2 - JOIN OVER 1 MILLION PLAYERS! Welcome to Chicken Road 2, the official Chicken Road 2 of 2025!",
-  keywords: ["chicken road game", "chicken road 2", "how to play chicken road 2", "play chicken road 2 2025", "chicken road 2 apk", "chicken road 2 download", "chicken road 2 game", "chicken road 2 app", "chicken road 2 for pc", "chicken road 2 for android", "chicken road 2 for ios","download chicken road 2","chicken road 2 latest version", "chicken road 2 screenshots"],
+  keywords: ["chicken road game", "chicken road 2", "how to play chicken road 2", "play chicken road 2 2025", "chicken road 2 apk", "chicken road 2 download", "chicken road 2 game", "chicken road 2 app", "chicken road 2 for pc", "chicken road 2 for android", "chicken road 2 for ios","chicken road 2 latest version", "chicken road 2 screenshots", "chicken road 2 png", "chicken road 2 game install", "chicken road 2", "chicken game 2 x 2.0 win 2025", "chicken road game in-app purchases" ],
   alternates: {
     canonical: "https://play-google-chicken-road-apk.com.pk/",
   },

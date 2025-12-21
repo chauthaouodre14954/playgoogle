@@ -10,8 +10,8 @@ export function AppScreenshots() {
 
   const screenshots = [
     { src: "/images/logo1.webp", alt: "Chicken Road 2 logo" },
-    { src: "/images/1.webp", alt: "Gameplay screenshot - chicken running on the road" },
-    { src: "/images/2.webp", alt: "Gameplay screenshot - collecting coins in the game" },
+    { src: "/images/11.webp", alt: "Gameplay screenshot - chicken running on the road" },
+    { src: "/images/22.webp", alt: "Gameplay screenshot - collecting coins in the game" },
     { src: "/images/3.webp", alt: "Gameplay screenshot - avoiding obstacles" },
     { src: "/images/5.webp", alt: "Gameplay screenshot - high score screen" },
   ]

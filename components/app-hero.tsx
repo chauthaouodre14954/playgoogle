@@ -321,8 +321,8 @@ export function AppHero() {
           {/* Stats */}
           <div className="mb-4 flex flex-wrap items-center gap-x-3 md:gap-x-6 gap-y-2">
             <div className="flex flex-col items-center">
-              <span className="text-base sm:text-xl md:text-2xl font-normal text-[#202124]">4.5 ★</span>
-              <div className="text-xs text-[#5f6368]">17.7K reviews</div>
+              <span className="text-base sm:text-xl md:text-2xl font-normal text-[#202124]">4.7 ★</span>
+              <div className="text-xs text-[#5f6368]">21.9K reviews</div>
             </div>
 
             <div className="h-4 w-px bg-[#dadce0]" />

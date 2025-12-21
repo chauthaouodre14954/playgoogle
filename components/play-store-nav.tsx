@@ -22,7 +22,7 @@ export function PlayStoreNav() {
 
         <div className="flex items-center gap-2">
           <img 
-            src="/playlogo.webp" 
+            src="/playlogo2.webp" 
             alt="Chicken Road 2"
             className="h-8 w-[140px] sm:w-[160px] md:h-10 md:w-50"
           />
