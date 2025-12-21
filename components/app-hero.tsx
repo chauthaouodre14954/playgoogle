@@ -307,7 +307,10 @@ export function AppHero() {
           </h1>
 
           <div className="mb-3 sm:mb-4">
-            <a href="#" className="text-sm font-medium text-[#01875f] hover:underline">
+            <a 
+              href="#" 
+              className="text-sm font-medium text-[#01875f] hover:text-[#017f56] hover:underline focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2 rounded px-1"
+            >
               InOutsGames
             </a>
           </div>
@@ -351,14 +354,14 @@ export function AppHero() {
             {deferredPrompt ? (
               <button
                 onClick={handleInstallClick}
-                className="w-full sm:w-auto rounded bg-[#01875f] px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-white hover:bg-[#017f56] text-center"
+                className="w-full sm:w-auto rounded bg-[#01875f] px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-white hover:bg-[#017f56] text-center focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2"
               >
                 Install on Phone
               </button>
             ) : (
               <a 
                 href="/play"
-                className="w-full sm:w-auto rounded bg-[#01875f] px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-white hover:bg-[#017f56] text-center no-underline"
+                className="w-full sm:w-auto rounded bg-[#01875f] px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-white hover:bg-[#017f56] text-center no-underline focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2"
               >
                 Install on Windows
               </a>
@@ -366,14 +369,14 @@ export function AppHero() {
 
             <a 
               href="/play" 
-              className="w-full sm:w-auto rounded border border-[#dadce0] bg-white px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-[#01875f] hover:bg-[#f8f9fa] text-center no-underline"
+              className="w-full sm:w-auto rounded border border-[#dadce0] bg-white px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-[#01875f] hover:bg-[#f8f9fa] hover:border-[#01875f] text-center no-underline focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2"
             >
               Install on more devices
             </a>
 
             <a 
               href="/play" 
-              className="flex items-center justify-center gap-2 rounded bg-white px-3 sm:px-4 py-2 sm:py-2.5 text-sm font-medium text-[#5f6368] hover:bg-[#f8f9fa] flex-1 sm:flex-none no-underline"
+              className="flex items-center justify-center gap-2 rounded bg-white px-3 sm:px-4 py-2 sm:py-2.5 text-sm font-medium text-[#5f6368] hover:bg-[#f8f9fa] hover:text-[#202124] flex-1 sm:flex-none no-underline border border-transparent hover:border-[#dadce0] focus:outline-none focus:ring-2 focus:ring-[#dadce0] focus:ring-offset-2"
             >
               <Share className="h-4 w-4" />
               <span className="hidden sm:inline">Share</span>
@@ -381,61 +384,36 @@ export function AppHero() {
 
             <a 
               href="/play" 
-              className="flex items-center justify-center gap-2 rounded bg-white px-3 sm:px-4 py-2 sm:py-2.5 text-sm font-medium text-[#5f6368] hover:bg-[#f8f9fa] flex-1 sm:flex-none no-underline"
+              className="flex items-center justify-center gap-2 rounded bg-white px-3 sm:px-4 py-2 sm:py-2.5 text-sm font-medium text-[#5f6368] hover:bg-[#f8f9fa] hover:text-[#202124] flex-1 sm:flex-none no-underline border border-transparent hover:border-[#dadce0] focus:outline-none focus:ring-2 focus:ring-[#dadce0] focus:ring-offset-2"
             >
               <Bookmark className="h-4 w-4" />
               <span className="hidden sm:inline">Add to wishlist</span>
             </a>
           </div>
 
-          {/* <div className="flex flex-wrap items-center gap-2 sm:gap-3">
-
-  <a
-    href="/Chicken Road 2.apk" // Замените на путь к вашему APK файлу в public
-    download="Chicken Road 2.apk" // Имя файла при скачивании
-    className="w-full sm:w-auto rounded bg-[#01875f] px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-white hover:bg-[#017f56] text-center no-underline"
-  >
-    Download
-  </a>
-
-  <a 
-    href="/play" 
-    className="w-full sm:w-auto rounded border border-[#dadce0] bg-white px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-[#01875f] hover:bg-[#f8f9fa] text-center no-underline"
-  >
-    Install on more devices
-  </a>
-
-  <a 
-    href="/play" 
-    className="flex items-center justify-center gap-2 rounded bg-white px-3 sm:px-4 py-2 sm:py-2.5 text-sm font-medium text-[#5f6368] hover:bg-[#f8f9fa] flex-1 sm:flex-none no-underline"
-  >
-    <Share className="h-4 w-4" />
-    <span className="hidden sm:inline">Share</span>
-  </a>
-
-  <a 
-    href="/play" 
-    className="flex items-center justify-center gap-2 rounded bg-white px-3 sm:px-4 py-2 sm:py-2.5 text-sm font-medium text-[#5f6368] hover:bg-[#f8f9fa] flex-1 sm:flex-none no-underline"
-  >
-    <Bookmark className="h-4 w-4" />
-    <span className="hidden sm:inline">Add to wishlist</span>
-  </a>
-</div> */}
-
           {/* Legal text */}
           <div className="mt-3 sm:mt-4 text-xs leading-relaxed text-[#5f6368]">
             <p>
               Google Play Games on PC is required to install this game on Windows. By downloading the app and the game,
               you agree to the{" "}
-              <a href="#" className="text-[#01875f] hover:underline">
+              <a 
+                href="#" 
+                className="text-[#01875f] hover:text-[#017f56] hover:underline font-medium underline decoration-[#01875f] decoration-2 underline-offset-2 focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2 rounded px-1"
+              >
                 Google Terms of Service
               </a>{" "}
               and{" "}
-              <a href="#" className="text-[#01875f] hover:underline">
+              <a 
+                href="#" 
+                className="text-[#01875f] hover:text-[#017f56] hover:underline font-medium underline decoration-[#01875f] decoration-2 underline-offset-2 focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2 rounded px-1"
+              >
                 Google Play Terms of Service
               </a>
               .{" "}
-              <a href="#" className="text-[#01875f] hover:underline">
+              <a 
+                href="#" 
+                className="text-[#01875f] hover:text-[#017f56] hover:underline font-medium underline decoration-[#01875f] decoration-2 underline-offset-2 focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2 rounded px-1"
+              >
                 Learn more
               </a>
               .
@@ -449,7 +427,10 @@ export function AppHero() {
             </svg>
             <span>
               You can share this with your family.{" "}
-              <a href="#" className="text-[#01875f] hover:underline">
+              <a 
+                href="#" 
+                className="text-[#01875f] hover:text-[#017f56] hover:underline font-medium underline decoration-[#01875f] decoration-2 underline-offset-2 focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2 rounded px-1"
+              >
                 Learn more about Family Library
               </a>
             </span>

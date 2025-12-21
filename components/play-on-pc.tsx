@@ -143,44 +143,47 @@ export function PlayOnPC() {
         </div>
       </div>
 
-      <p className="mb-4 text-sm text-gray-300 leading-relaxed">
+      <p className="mb-4 text-sm text-gray-200 leading-relaxed"> {/* Изменено с gray-300 на gray-200 */}
         Play this game on your Windows PC with Google Play Games
       </p>
 
-      <a href="#" className="mb-6 inline-block text-sm text-[#00d77f] hover:text-[#00d77f]/90">
+      <a 
+        href="#" 
+        className="mb-6 inline-block text-sm text-[#00d77f] hover:text-[#00d77f]/90 font-medium" /* Добавлен font-medium */
+      >
         Learn more
       </a>
 
-      <div className="mb-6 border-t border-gray-700" />
+      <div className="mb-6 border-t border-gray-600" /> {/* Изменено с gray-700 на gray-600 */}
 
       <ul className="mb-6 space-y-3 text-sm">
         <li className="flex items-start gap-3">
-          <Monitor className="h-4 w-4 mt-0.5 flex-shrink-0 text-gray-400" />
-          <span className="text-gray-300">Official Google experience</span>
+          <Monitor className="h-4 w-4 mt-0.5 flex-shrink-0 text-gray-300" /> {/* Изменено с gray-400 на gray-300 */}
+          <span className="text-gray-200">Official Google experience</span> {/* Изменено с gray-300 на gray-200 */}
         </li>
         <li className="flex items-start gap-3">
-          <Maximize className="h-4 w-4 mt-0.5 flex-shrink-0 text-gray-400" />
-          <span className="text-gray-300">Bigger screen</span>
+          <Maximize className="h-4 w-4 mt-0.5 flex-shrink-0 text-gray-300" />
+          <span className="text-gray-200">Bigger screen</span>
         </li>
         <li className="flex items-start gap-3">
-          <TrendingUp className="h-4 w-4 mt-0.5 flex-shrink-0 text-gray-400" />
-          <span className="text-gray-300">Level up with improved controls</span>
+          <TrendingUp className="h-4 w-4 mt-0.5 flex-shrink-0 text-gray-300" />
+          <span className="text-gray-200">Level up with improved controls</span>
         </li>
         <li className="flex items-start gap-3">
-          <RefreshCw className="h-4 w-4 mt-0.5 flex-shrink-0 text-gray-400" />
-          <span className="text-gray-300">Seamless sync across devices*</span>
+          <RefreshCw className="h-4 w-4 mt-0.5 flex-shrink-0 text-gray-300" />
+          <span className="text-gray-200">Seamless sync across devices*</span>
         </li>
         <li className="flex items-start gap-3">
-          <Gift className="h-4 w-4 mt-0.5 flex-shrink-0 text-gray-400" />
-          <span className="text-gray-300">Earn Google Play Points</span>
+          <Gift className="h-4 w-4 mt-0.5 flex-shrink-0 text-gray-300" />
+          <span className="text-gray-200">Earn Google Play Points</span>
         </li>
       </ul>
 
-      <div className="mb-6 border-t border-gray-700" />
+      <div className="mb-6 border-t border-gray-600" /> {/* Изменено с gray-700 на gray-600 */}
 
       <div className="mb-6">
         <h3 className="mb-4 text-base font-semibold">Minimum requirements</h3>
-        <ul className="space-y-2 text-sm text-gray-300">
+        <ul className="space-y-2 text-sm text-gray-200"> {/* Изменено с gray-300 на gray-200 */}
           <li>
             <span className="font-medium text-white">OS:</span> Windows 10 (v2004)
           </li>
@@ -197,24 +200,24 @@ export function PlayOnPC() {
           <li>
             <span className="font-medium text-white">Memory:</span> 8 GB RAM
           </li>
-          <li className="text-gray-400">Windows admin account</li>
-          <li className="text-gray-400">Hardware virtualization must be turned on</li>
+          <li className="text-gray-300">Windows admin account</li> {/* Изменено с gray-400 на gray-300 */}
+          <li className="text-gray-300">Hardware virtualization must be turned on</li> {/* Изменено с gray-400 на gray-300 */}
         </ul>
       </div>
 
-      <p className="mb-4 text-xs text-gray-400 leading-relaxed">
+      <p className="mb-4 text-xs text-gray-300 leading-relaxed"> {/* Изменено с gray-400 на gray-300 */}
         To learn more about these requirements,{" "}
-        <a href="#" className="text-[#00d77f] hover:underline">
+        <a href="#" className="text-[#00d77f] hover:underline font-medium"> {/* Добавлен font-medium */}
           visit the Help Center
         </a>
       </p>
 
-      <p className="mt-2 text-[10px] text-gray-500 leading-relaxed">
+      <p className="mt-2 text-xs text-gray-400 leading-relaxed"> {/* Изменено с [10px] и gray-500 на text-xs и gray-400 */}
         Google Play and the Google Play logo are trademarks of Intel Corporation or its subsidiaries. Windows is a
         trademark of the Microsoft group of companies.
       </p>
 
-      <p className="mt-2 text-[10px] text-gray-500">*Might not be available for this game</p>
+      <p className="mt-2 text-xs text-gray-400">*Might not be available for this game</p> {/* Изменено с [10px] и gray-500 на text-xs и gray-400 */}
     </div>
   )
 }
