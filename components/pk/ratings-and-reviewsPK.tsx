@@ -6,40 +6,40 @@ import { useState } from "react"
 export function RatingsAndReviews() {
   const reviews = [
     {
-      author: "Idris Mohamed",
+      author: "ادریس محمد",
       rating: 5,
-      date: "November 21, 2025",
-      text: "Great game! The multipliers make it super exciting. Love the x1000 feature!",
+      date: "21 نومبر 2025",
+      text: "بہترین گیم! ملٹی پلائرز اسے انتہائی دلچسپ بناتے ہیں۔ x1000 فیچر بہت پسند ہے!",
       helpful: 342,
       avatar: "/authors/Idris2.webp",
-      alt: "Photo - Idris Mohamed",
-      // Добавляем размеры исходного изображения и требуемые размеры
+      alt: "تصویر - ادریس محمد",
+      // Adding original image dimensions and required sizes
       originalWidth: 493,
       originalHeight: 494,
       requiredWidth: 72,
       requiredHeight: 48
     },
     {
-      author: "Olwethu Somabhele",
+      author: "اولویتھو سوما بھیلے",
       rating: 4,
-      date: "September 25, 2025",
-      text: "to play this game correctly you have to wait and cross after the slow moving vehicles only the medium and fast you get. hit -+ slow vehicles only and you make it to finish as for cashing out I don't think this game rewards money",
+      date: "25 ستمبر 2025",
+      text: "اس گیم کو صحیح طریقے سے کھیلنے کے لیے آپ کو انتظار کرنا ہوگا اور صرف آہستہ چلنے والی گاڑیوں کے بعد کراس کرنا ہوگا، درمیانی اور تیز گاڑیوں سے بچنا ہوگا۔ صرف آہستہ گاڑیوں سے بچیں اور آپ ختم کر سکتے ہیں، جہاں تک کیش آؤٹ کا تعلق ہے تو میرے خیال میں یہ گیم پیسے نہیں دیتی",
       helpful: 221,
       avatar: "/authors/Olwethu.webp",
-      alt: "Photo - Olwethu Somabhele",
+      alt: "تصویر - اولویتھو سوما بھیلے",
       originalWidth: 256,
       originalHeight: 256,
       requiredWidth: 48,
       requiredHeight: 72
     },
     {
-      author: "Alex Johnson",
+      author: "ایلکس جانسن",
       rating: 5,
-      date: "December 21, 2025",
-      text: "This is my first time playing chicken road, and I honestly don’t really understand the game yet. I keep hearing people talk about making money from it, so I decided to try it out today and see if what they say is true. If it works out, that’s great, and if not, at least it seems fun to play. I’m still confused about how everything works, so if anyone can guide me through the game, I’d really appreciate it. For me, winning is important because it’s all about the money that’s what motivates me",
+      date: "21 دسمبر 2025",
+      text: "یہ پہلی بار ہے کہ میں چکن روڈ کھیل رہا ہوں، اور ایمانداری سے میں ابھی تک گیم کو صحیح طرح نہیں سمجھ پایا۔ میں لوگوں سے سنتا رہتا ہوں کہ اس سے پیسے کمائے جا سکتے ہیں، تو میں نے آج اسے آزمانے کا فیصلہ کیا تاکہ دیکھوں کہ ان کی بات سچ ہے یا نہیں۔ اگر یہ کام کرتا ہے تو بہت اچھا، اور اگر نہیں، تو کم از کم یہ مزے دار لگتا ہے۔ میں ابھی بھی کنفیوز ہوں کہ سب کچھ کیسے کام کرتا ہے، تو اگر کوئی مجھے گیم کے بارے میں بتا سکتا ہے تو میں بہت مشکور ہوں گا۔ میرے لیے جیتنا ضروری ہے کیونکہ یہ سب پیسوں کے بارے میں ہے، یہی میری تحریک ہے",
       helpful: 99,
       avatar: "/authors/Alex2.webp",
-      alt: "Photo - Alex Johnson",
+      alt: "تصویر - ایلکس جانسن",
       originalWidth: 980,
       originalHeight: 980,
       requiredWidth: 48,
@@ -49,7 +49,7 @@ export function RatingsAndReviews() {
 
   return (
     <div id="authors" className="mb-8 border-t border-[#dadce0] pt-6">
-      <h2 className="mb-6 text-base font-medium text-[#202124]">Ratings and reviews</h2>
+      <h2 className="mb-6 text-base font-medium text-[#202124]">درجہ بندی اور جائزے</h2>
 
       <div className="mb-6 flex flex-col sm:flex-row items-start sm:items-start gap-6 sm:gap-8">
         {/* Rating summary */}
@@ -88,22 +88,22 @@ export function RatingsAndReviews() {
         ))}
       </div>
 
-      <button className="mt-6 text-sm font-medium text-[#01875f] hover:underline">See all reviews</button>
+      <button className="mt-6 text-sm font-medium text-[#01875f] hover:underline">تمام جائزے دیکھیں</button>
     </div>
   )
 }
 
-// Выносим компонент отзыва для лучшей читаемости
+// Extracting review component for better readability
 function ReviewItem({ review }: { review: any }) {
   const [imgError, setImgError] = useState(false)
 
-  // Функция для создания srcSet с разными размерами
+  // Function to create srcSet with different sizes
   const getOptimizedImageUrl = (originalPath: string, width: number, height: number) => {
-    // Предположим, что у вас есть система обработки изображений
-    // Например, если используете next/image или подобное
+    // Assuming you have an image processing system
+    // For example, if using next/image or similar
     
-    // Временное решение - используем оригинальный путь
-    // В реальном проекте здесь должна быть логика ресайза изображений
+    // Temporary solution - using original path
+    // In a real project, there should be image resizing logic here
     return originalPath;
   }
 
@@ -113,7 +113,7 @@ function ReviewItem({ review }: { review: any }) {
         <div className="flex items-center gap-3">
           <div className="flex-shrink-0 relative">
             {imgError ? (
-              // Fallback на цветной круг с инициалом
+              // Fallback to colored circle with initial
               <div 
                 className="h-10 w-10 rounded-full bg-[#ea4335] flex items-center justify-center text-sm font-medium text-white"
                 title={review.alt}
@@ -121,7 +121,7 @@ function ReviewItem({ review }: { review: any }) {
                 {review.author[0]}
               </div>
             ) : (
-              // Оптимизированное изображение
+              // Optimized image
               <img 
                 src={review.avatar}
                 alt={review.alt}
@@ -131,10 +131,10 @@ function ReviewItem({ review }: { review: any }) {
                 loading="lazy"
                 decoding="async"
                 onError={() => setImgError(true)}
-                // Добавляем srcSet для ретины дисплеев (2x плотность пикселей)
+                // Adding srcSet for retina displays (2x pixel density)
                 srcSet={`${review.avatar} 1x, ${review.avatar}?w=80 2x`}
-                // Предзагрузка не нужна для маленьких изображений
-                // sizes="40px" - фиксированный размер
+                // Preload not needed for small images
+                // sizes="40px" - fixed size
               />
             )}
           </div>
@@ -142,7 +142,7 @@ function ReviewItem({ review }: { review: any }) {
         </div>
         <button 
           className="text-[#5f6368] hover:text-[#202124] flex-shrink-0"
-          aria-label="More options"
+          aria-label="مزید اختیارات"
         >
           <MoreVertical className="h-5 w-5" />
         </button>
@@ -158,19 +158,19 @@ function ReviewItem({ review }: { review: any }) {
       <p className="mb-3 text-sm leading-relaxed text-[#3c4043]">{review.text}</p>
 
       <div className="flex flex-wrap items-center gap-3 sm:gap-4 text-xs text-[#5f6368]">
-        <span className="w-full sm:w-auto">{review.helpful} people found this helpful</span>
+        <span className="w-full sm:w-auto">{review.helpful} لوگوں نے یہ مفید پایا</span>
         <button 
           className="flex items-center gap-1 hover:text-[#202124]"
-          aria-label="Mark as helpful"
+          aria-label="مفید قرار دیں"
         >
           <ThumbsUp className="h-4 w-4" />
-          Yes
+          ہاں
         </button>
         <button 
           className="hover:text-[#202124]"
-          aria-label="Mark as not helpful"
+          aria-label="غیر مفید قرار دیں"
         >
-          No
+          نہیں
         </button>
       </div>
     </div>

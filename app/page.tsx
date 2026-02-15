@@ -8,8 +8,6 @@ import { PlayOnPC } from "@/components/play-on-pc"
 import { DeveloperInfo } from "@/components/developer-info"
 import { SimilarApps } from "@/components/similar-apps"
 import PwaRedirect from "@/components/PwaRedirect"
-import InstallButton from "@/components/InstallButton"
-import OneSignalInit from "@/components/OneSignalInit"
 
 export default function Home() {
   return (

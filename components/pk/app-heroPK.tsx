@@ -43,7 +43,7 @@ export function AppHero() {
         {/* Right side - App info */}
         <div className="flex-1 min-w-0">
           <h1 className="mb-2 text-lg sm:text-xl md:text-2xl lg:text-[32px] font-normal leading-tight text-[#202124]">
-            Chicken Road 2 x Best Game 2025
+            Chicken Road 2 x بہترین گیم 2025
           </h1>
 
           <div className="mb-3 sm:mb-4">
@@ -51,28 +51,28 @@ export function AppHero() {
               href="#" 
               className="text-sm font-medium text-[#01875f] hover:text-[#017f56] hover:underline focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2 rounded px-1"
             >
-              InOutsGames
+              ان آؤٹس گیمز
             </a>
           </div>
 
           <div className="mb-3 sm:mb-4 flex items-center gap-1 text-xs text-[#5f6368]">
-            <span>Contains ads</span>
+            <span>مشتہرات پر مشتمل ہے</span>
             <span>·</span>
-            <span>In-app purchases</span>
+            <span>ایپ میں خریداریاں</span>
           </div>
 
           {/* Stats */}
           <div className="mb-4 flex flex-wrap items-center gap-x-3 md:gap-x-6 gap-y-2">
             <div className="flex flex-col items-center">
               <span className="text-base sm:text-xl md:text-2xl font-normal text-[#202124]">4.7 ★</span>
-              <div className="text-xs text-[#5f6368]">21.9K reviews</div>
+              <div className="text-xs text-[#5f6368]">21.9K جائزے</div>
             </div>
 
             <div className="h-4 w-px bg-[#dadce0]" />
 
             <div className="flex flex-col items-center">
               <span className="text-base sm:text-xl md:text-2xl font-normal text-[#202124]">5M+</span>
-              <div className="text-xs text-[#5f6368]">Downloads</div>
+              <div className="text-xs text-[#5f6368]">ڈاؤن لوڈز</div>
             </div>
 
             <div className="h-4 w-px bg-[#dadce0]" />
@@ -81,11 +81,11 @@ export function AppHero() {
               <div className="flex h-6 w-6 sm:h-8 sm:w-8 items-center justify-center">
                 <img 
                   src="https://play-lh.googleusercontent.com/QNpsl4k43vdbfwUAlVLZul2W5O5MUGOToystzghc97mljVHbUwtc639tahcuDsAVHdaGMyZA40AmMVcB_ws=w96-h32-rw" 
-                  alt="Age rating 18+"
+                  alt="عمر کی درجہ بندی 18+"
                   className="h-3 w-3 sm:h-4 sm:w-4 object-contain"
                 />
               </div>
-              <div className="text-xs text-[#5f6368]">Rated for 18+</div>
+              <div className="text-xs text-[#5f6368]">18+ کے لیے موزوں</div>
             </div>
           </div>
 
@@ -96,14 +96,14 @@ export function AppHero() {
                 onClick={handleInstallClick}
                 className="w-full sm:w-auto rounded bg-[#01875f] px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-white hover:bg-[#017f56] text-center focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2"
               >
-                Install on Phone
+                فون پر انسٹال کریں
               </button>
             ) : (
               <a 
                 href="/play"
                 className="w-full sm:w-auto rounded bg-[#01875f] px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-white hover:bg-[#017f56] text-center no-underline focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2"
               >
-                Install on Windows
+                ونڈوز پر انسٹال کریں
               </a>
             )}
 
@@ -111,7 +111,7 @@ export function AppHero() {
               href="/play" 
               className="w-full sm:w-auto rounded border border-[#dadce0] bg-white px-4 sm:px-6 py-2 sm:py-2.5 text-sm font-medium text-[#01875f] hover:bg-[#f8f9fa] hover:border-[#01875f] text-center no-underline focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2"
             >
-              Install on more devices
+              مزید ڈیوائسز پر انسٹال کریں
             </a>
 
             <a 
@@ -119,7 +119,7 @@ export function AppHero() {
               className="flex items-center justify-center gap-2 rounded bg-white px-3 sm:px-4 py-2 sm:py-2.5 text-sm font-medium text-[#5f6368] hover:bg-[#f8f9fa] hover:text-[#202124] flex-1 sm:flex-none no-underline border border-transparent hover:border-[#dadce0] focus:outline-none focus:ring-2 focus:ring-[#dadce0] focus:ring-offset-2"
             >
               <Share className="h-4 w-4" />
-              <span className="hidden sm:inline">Share</span>
+              <span className="hidden sm:inline">شیئر کریں</span>
             </a>
 
             <a 
@@ -127,34 +127,33 @@ export function AppHero() {
               className="flex items-center justify-center gap-2 rounded bg-white px-3 sm:px-4 py-2 sm:py-2.5 text-sm font-medium text-[#5f6368] hover:bg-[#f8f9fa] hover:text-[#202124] flex-1 sm:flex-none no-underline border border-transparent hover:border-[#dadce0] focus:outline-none focus:ring-2 focus:ring-[#dadce0] focus:ring-offset-2"
             >
               <Bookmark className="h-4 w-4" />
-              <span className="hidden sm:inline">Add to wishlist</span>
+              <span className="hidden sm:inline">خواہش کی فہرست میں شامل کریں</span>
             </a>
           </div>
 
           {/* Legal text */}
           <div className="mt-3 sm:mt-4 text-xs leading-relaxed text-[#5f6368]">
             <p>
-              Google Play Games on PC is required to install this game on Windows. By downloading the app and the game,
-              you agree to the{" "}
+              ونڈوز پر یہ گیم انسٹال کرنے کے لیے پی سی پر گوگل پلے گیمز درکار ہے۔ ایپ اور گیم ڈاؤن لوڈ کرکے، آپ{" "}
               <a 
                 href="#" 
                 className="text-[#01875f] hover:text-[#017f56] hover:underline font-medium underline decoration-[#01875f] decoration-2 underline-offset-2 focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2 rounded px-1"
               >
-                Google Terms of Service
+                گوگل کی سروس کی شرائط
               </a>{" "}
-              and{" "}
+              اور{" "}
               <a 
                 href="#" 
                 className="text-[#01875f] hover:text-[#017f56] hover:underline font-medium underline decoration-[#01875f] decoration-2 underline-offset-2 focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2 rounded px-1"
               >
-                Google Play Terms of Service
+                گوگل پلے کی سروس کی شرائط
               </a>
-              .{" "}
+              {" "}سے اتفاق کرتے ہیں۔{" "}
               <a 
                 href="#" 
                 className="text-[#01875f] hover:text-[#017f56] hover:underline font-medium underline decoration-[#01875f] decoration-2 underline-offset-2 focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2 rounded px-1"
               >
-                Learn more
+                مزید جانیں
               </a>
               .
             </p>
@@ -166,12 +165,12 @@ export function AppHero() {
               <path d="M12 5.69l5 4.5V18h-2v-6H9v6H7v-7.81l5-4.5M12 3L2 12h3v8h6v-6h2v6h6v-8h3L12 3z" />
             </svg>
             <span>
-              You can share this with your family.{" "}
+              آپ یہ اپنے خاندان کے ساتھ شیئر کر سکتے ہیں۔{" "}
               <a 
                 href="#" 
                 className="text-[#01875f] hover:text-[#017f56] hover:underline font-medium underline decoration-[#01875f] decoration-2 underline-offset-2 focus:outline-none focus:ring-2 focus:ring-[#01875f] focus:ring-offset-2 rounded px-1"
               >
-                Learn more about Family Library
+                فیملی لائبریری کے بارے میں مزید جانیں
               </a>
             </span>
           </div>

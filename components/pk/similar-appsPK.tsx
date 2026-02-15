@@ -4,7 +4,7 @@ import { Star } from "lucide-react"
 export function SimilarApps() {
   const apps = [
     {
-      name: "Chicken Road 2",
+      name: "چکن روڈ 2",
       developer: "chicken-road-2.pk",
       rating: 4.4,
       downloads: "2M+",
@@ -12,7 +12,7 @@ export function SimilarApps() {
       url: "https://chicken-road-2.pk"
     },
     {
-      name: "Snoop Dogg Dollars",
+      name: "سنوپ ڈاگ ڈالرز",
       developer: "snoopdoggdollar.org",
       rating: 4.3,
       downloads: "1M+",
@@ -20,7 +20,7 @@ export function SimilarApps() {
       url: "https://snoopdoggdollar.org"
     },
     {
-      name: "Chicken Road 2 for Pakistan",
+      name: "چکن روڈ 2 فار پاکستان",
       developer: "ipaidbribe.pk",
       rating: 4.3,
       downloads: "1M+",
@@ -31,7 +31,7 @@ export function SimilarApps() {
 
   return (
     <div className="mb-8 border-t border-[#dadce0] pt-6">
-      <h2 className="mb-4 text-base font-medium text-[#202124]">Similar games</h2>
+      <h2 className="mb-4 text-base font-medium text-[#202124]">ملتی جلتی گیمز</h2>
 
       <div className="grid gap-3 md:gap-4 grid-cols-1 sm:grid-cols-2 lg:grid-cols-3">
         {apps.map((app, index) => (
@@ -46,7 +46,7 @@ export function SimilarApps() {
                 alt={app.name}
                 className="h-full w-full object-cover"
                 onError={(e) => {
-                  e.currentTarget.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Crect width='56' height='56' fill='%23f8f9fa'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='10' fill='%235f6368'%3EApp%3C/text%3E%3C/svg%3E"
+                  e.currentTarget.src = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56' viewBox='0 0 56 56'%3E%3Crect width='56' height='56' fill='%23f8f9fa'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='10' fill='%235f6368'%3Eایپ%3C/text%3E%3C/svg%3E"
                 }}
               />
             </div>
